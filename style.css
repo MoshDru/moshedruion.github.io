@@ -128,4 +128,31 @@
   .collapsible {
     display: none;
   }
+
+  .resume-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .resume-btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .resume-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+  }
+  
+  .resume-download::after {
+    content: " ↓";
+  }
   
